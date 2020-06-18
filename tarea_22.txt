@@ -1,0 +1,11 @@
+Descripción de sub-tareas para la tarea número: 22
+Listado de sub-tareas del ejercicio:
+22_01:	Videos visualizados.
+22_02:	Creación del repositorio The_Egg_ai en mi cuenta de GitHub. (Incluye README y LICENCE)
+22_03:	Cambio del perfil por defecto de la plataforma de aprendizaje de The_Egg_ai, por mi perfil de GitHub.
+22_04:	Clonación del repositorio en mi espacio de trabajo local.
+22_05:	Creación del archivo descripción de la tarea 22
+22_06:	Creación del archivo Diccionario de términos
+
+22_06:	add commit (en local?) push (remoto)
+22_04:	Creación del archivo descripción de la tarea 22
