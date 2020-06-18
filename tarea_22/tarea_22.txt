@@ -3,9 +3,12 @@ Listado de sub-tareas del ejercicio:
 22_01:	Videos visualizados.
 22_02:	Creación del repositorio The_Egg_ai en mi cuenta de GitHub. (Incluye README y LICENCE)
 22_03:	Cambio del perfil por defecto de la plataforma de aprendizaje de The_Egg_ai, por mi perfil de GitHub.
-22_04:	Clonación del repositorio en mi espacio de trabajo local.
+22_04:	Clonación del repositorio en mi espacio de trabajo local mediante HTTPS (*)
 22_05:	Creación del archivo descripción de la tarea 22
 22_06:	Creación del archivo Diccionario de términos
 
-22_06:	add commit (en local?) push (remoto)
-22_04:	Creación del archivo descripción de la tarea 22
+22_06:	A través de bash-terminal: add y commit en el espacio de trabajo local. 
+22_06:	A través de bash-terminal: push
+22_04:	,,,,,
+
+(*) Anteriormente he tratado de hacerlo por SSH, pero después de haber creado una key RSA y agrazarla a GitHub he debido comentar algún error. Dejó para mas adelante esta forma de clonar el directorio.
