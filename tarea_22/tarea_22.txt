@@ -18,8 +18,8 @@ Listado de sub-tareas del ejercicio:
 //////////////////////////////////////////////////
 
 Adjuntos: Se adjuntan a esta descripción de tareas imágenes decantaras de pantalla de los comandos ejecutados mediante terminal.
-tarea22_img_1.gif
-tarea22_img_3.gif
-tarea22_img_4.gif
+tarea22_img_1.png: Captura de pantalla mostrando terminal comando diff (para comprobar cambios en los respectivos documentos locales y remotos).
+tarea22_img_2.png: Captura de pantalla mostrando terminal comando add . y commit.
+tarea22_img_3.png: Captura de pantalla mostrando área de trabajo GitHub con los archivos actualizados finalmente.
 - - - - - - - - - - - - - - - - - - - - - - - - - 
 Incidencias: (*) Anteriormente he tratado de hacerlo por SSH a través de PowerShell en un windows 10, pero después de haber creado una key RSA y agregarla a GitHub he debido cometer algún error. Dejo para más adelante esta forma de clonar el directorio.
