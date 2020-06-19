@@ -1,0 +1,25 @@
+//////////////////////////////////////////////////
+Descripción de sub-tareas para la tarea número: 16
+==================================================
+Esta tarea solo contiene ficheros descriptivos (imagen y texto). No contiene programación o scripts funcionales, ni ejecutables
+
+Listado de sub-tareas del ejercicio:
+------------------------------------
+16_01:	Videos visualizados.
+16_02:	Creación del repositorio The_Egg_ai en mi cuenta de GitHub. (Incluye archivos "README" y "LICENCE").
+16_03:	Cambio del perfil por defecto de la plataforma de aprendizaje de The_Egg_ai, por mi perfil de GitHub.
+16_04:	Clonación del repositorio en mi espacio de trabajo local mediante HTTPS y ejecutado en terminal bash (*)
+16_05:	Creación del archivo descripción de la tarea 16.
+16_06:	Añadir cambios y confirmarlos en el espacio de trabajo local través de bash-terminal (comandos: add y commit).
+16_07:	Subir confirmación de cambios en archivos al repositorio remoto GitHub través de bash-terminal (comando: push).
+16_08:	Creación del archivo "Diccionario de términos".
+16_09:	Subir archivo "Diccionario de términos" al repositorio GitHub mediante su utilidad "upload file".
+
+//////////////////////////////////////////////////
+
+Adjuntos: Se adjuntan a esta descripción de tareas imágenes decantaras de pantalla de los comandos ejecutados mediante terminal.
+tarea16_img_1.png: Captura de pantalla mostrando terminal comando diff (para comprobar cambios en los respectivos documentos locales y remotos).
+tarea16_img_2.png: Captura de pantalla mostrando terminal comando add . y commit.
+tarea16_img_3.png: Captura de pantalla mostrando área de trabajo GitHub con los archivos actualizados finalmente.
+- - - - - - - - - - - - - - - - - - - - - - - - - 
+Incidencias: (*) Anteriormente he tratado de hacerlo por SSH a través de PowerShell en un windows 10, pero después de haber creado una key RSA y agregarla a GitHub he debido cometer algún error. Dejo para más adelante esta forma de clonar el directorio.
