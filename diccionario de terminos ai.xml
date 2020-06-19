@@ -1,0 +1,89 @@
+<diccionario>
+	<termino>
+		<id>1</id>
+		<tarea>16</tarea>
+		<term>Repositorio de control de versiones</term>
+		<descrip>Cualquiera que haya tenido que gestionar un proyecto de programación, por pequeño que fuera, sabrá lo tedioso y complicado que se puede llegar a ser el llevar con orden los archivos, las líneas de código y sus constantes cambios, los archivos externos, y sus enlaces tec. Añadamos a ello el hecho de que un trabajo de programación contará con toda seguridad con más de un programador y por ello la necesidad de trabajar en equipo y a distancia; en este caso, llevar un control de las versiones y los cambios se hace ineludible. Para todo ello se han hecho los repositorios de control de versiones, de los cuales GitHub es un ejemplo.</descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>2</id>
+		<tarea>16</tarea>
+		<term>GitHub</term>
+		<descrip>GitHub es el interface de usuario que gestiona el protocolo de control de versiones denominado Git. Ambos en conjunto son lo que se denomina un sistema de Control de versiones (VCS) de proyectos de programación.
+Las funciones más importantes son: historial de cambios completo creación de ramas, la fusión de diferentes flujos de trabajo independientes en escritura de código y  la trazabilidad  cambios en el código (versiones, correcciones, comentarios, etc,) A esta tres funcionalidades importantes se añaden otras como pueden ser complementos y extensiones para escritorio o integración con herramientas de desarrollo o de gestión de proyectos.
+</descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>3</id>
+		<tarea>16</tarea>
+		<term>Ley De Moore</term>
+		<descrip>Como es sabido Moore, químico y físico y co-fundador de intel, predijo en 1965 que el progreso en la capacidad de transistores en circuitos integrados se mantendría en una tendencia igual a la que se evidenciaba en aquellos años  en los que se duplicaba cada años. Este hecho supondría igualmente que la capacidad de los mismos se incrementara. Aquella predicción fue corregida a la baja en 1975. Además, tal y como aseguró el mismo Moore, la "ley" tiene fecha de caducidad. La que es conocida como Ley de Moore es en realidad una predicción que aunque se está cumpliendo empíricamente, según algunos autores, no puede ser denominada ley propiamente dicha.</descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>4</id>
+		<tarea>17</tarea>
+		<term>Lenguaje de programación</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>5</id>
+		<tarea>17</tarea>
+		<term>Javascript </term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	</termino>
+		<termino>
+		<id>6</id>
+		<tarea>17</tarea>
+		<term>Python</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>7</id>
+		<tarea>17</tarea>
+		<term>PHP</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>8</id>
+		<tarea>17</tarea>
+		<term>JAVA</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>9</id>
+		<tarea>17</tarea>
+		<term>HTML</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>10</id>
+		<tarea>17</tarea>
+		<term>CSS</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>11</id>
+		<tarea>17</tarea>
+		<term>R</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>12</id>
+		<tarea>17</tarea>
+		<term>SQL</term>
+		<descrip></descrip>
+		<photo>http://</photo>
+	</termino>
+</diccionario>
