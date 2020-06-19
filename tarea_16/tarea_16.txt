@@ -22,4 +22,4 @@ tarea16_img_1.png: Captura de pantalla mostrando terminal comando diff (para com
 tarea16_img_2.png: Captura de pantalla mostrando terminal comando add . y commit.
 tarea16_img_3.png: Captura de pantalla mostrando área de trabajo GitHub con los archivos actualizados finalmente.
 - - - - - - - - - - - - - - - - - - - - - - - - - 
-Incidencias: (*) Anteriormente he tratado de hacerlo por SSH a través de PowerShell en un windows 10, pero después de haber creado una key RSA y agregarla a GitHub he debido cometer algún error. Dejo para más adelante esta forma de clonar el directorio.
+Incidencias: (*) Anteriormente he tratado de hacerlo por SSH a través de PowerShell en un windows 10, pero después de haber creado una key RSA y agregarla a GitHub he debido cometer algún error. Dejo para más adelante esta forma de clonar el directorio. En las imágenes la tarea es descrita como 22, esto es un descuido que he corregido ahora a poniendo 16, como corresponde en todos los documentos y textos, pero no en la imagen misma. Disculpas, entiendo que las imagenes cumplen su función de demostración igualmente.
