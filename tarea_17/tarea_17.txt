@@ -1,0 +1,16 @@
+//////////////////////////////////////////////////
+Descripción de sub-tareas para la tarea número: 17
+==================================================
+Esta tarea consiste en añadir las entradas siguientes al "Diccionario de términos":
+lenguaje-de-programación | javascript | python | php | Java | html | CSS | R | SQL
+Así pues nos emitimos a dicho archivo que al ser compartido por varia atareas, se aloja en el nivel 0 del repositorio.
+
+Listado de sub-tareas del ejercicio:
+------------------------------------
+No hay subtareas
+
+//////////////////////////////////////////////////
+
+Adjuntos: No hay
+- - - - - - - - - - - - - - - - - - - - - - - - - 
+Incidencias: No hay

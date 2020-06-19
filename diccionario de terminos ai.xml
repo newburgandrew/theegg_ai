@@ -26,14 +26,14 @@ Las funciones más importantes son: historial de cambios completo creación de r
 		<id>4</id>
 		<tarea>17</tarea>
 		<term>Lenguaje de programación</term>
-		<descrip></descrip>
+		<descrip>Un lenguaje de programación es cualquiera sistema de códigos computables con los que procesar informaron, almacenarla, trasmitirla y con ella ejecutar acciones a través de dispositivos computerizados</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>5</id>
 		<tarea>17</tarea>
 		<term>Javascript </term>
-		<descrip></descrip>
+		<descrip>Aunque no ha sido considerado en años un lenguaje de programación sino un lenguaje de scripts, actualmente si es considerado como tal. Es muy usado en la parte de front-end en páginas web pero actualmente se usa para gran número de aplicaciones, desde programar scripts de aplicaciones de escritorio hasta para tareas de programación en apps para dispositivos móviles</descrip>
 		<photo>http://</photo>
 	</termino>
 	</termino>
@@ -41,49 +41,49 @@ Las funciones más importantes son: historial de cambios completo creación de r
 		<id>6</id>
 		<tarea>17</tarea>
 		<term>Python</term>
-		<descrip></descrip>
+		<descrip>Lenguaje de programación conocido por su legibilidad y su gran despliegue y difusión</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>7</id>
 		<tarea>17</tarea>
 		<term>PHP</term>
-		<descrip></descrip>
+		<descrip>Lenguaje de programación orientado a la parte del servidor cuyo uso junto a la base de datos MySQL se ha extendido en los últimos años de la mano de sistema Linux y de los servidores Apache, especialmente en aplicaciones web.</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>8</id>
 		<tarea>17</tarea>
 		<term>JAVA</term>
-		<descrip></descrip>
+		<descrip>Lenguaje de programación conocido porque una de sus particularidades es que no es compilado y necesita un intérprete, este hecho le ha dado la ventaja de estar disponible para gran parte de sistemas operativos</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>9</id>
 		<tarea>17</tarea>
 		<term>HTML</term>
-		<descrip></descrip>
+		<descrip>No es propiamente un lenguaje de programación sino un leguaje de etiquetas, su objetivo es descriptivo y constructor de salida por pantalla a partir de datos generados por lenguajes de programación.</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>10</id>
 		<tarea>17</tarea>
 		<term>CSS</term>
-		<descrip></descrip>
+		<descrip>Aunque hay quien le da la categoría de lenguaje propiamente dicho, CSS, aunque cada vez más flexible y potente, no es propiamente un lenguaje de programación sino un leguaje de etiquetas, su objetivo es dar forma a los documentos HTML a partir de hojas de estilos.</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>11</id>
 		<tarea>17</tarea>
 		<term>R</term>
-		<descrip></descrip>
+		<descrip>R es un lenguaje de programación especialmente creado para manejar algoritmos orientado a la estadística y la matemática</descrip>
 		<photo>http://</photo>
 	</termino>
 	<termino>
 		<id>12</id>
 		<tarea>17</tarea>
 		<term>SQL</term>
-		<descrip></descrip>
+		<descrip>Structured Query Language es un lenguaje de consulta para interactuar específicamente con bases de datos relacionales.</descrip>
 		<photo>http://</photo>
 	</termino>
 </diccionario>
