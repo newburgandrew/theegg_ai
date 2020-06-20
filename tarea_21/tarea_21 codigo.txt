@@ -1,0 +1,65 @@
+# //////////////////////////////////////////////////
+# Archivo adjunto de la tarea: 21
+# ==================================================
+# COMIENZO DEL SCRIPT EJECUTABLE
+# Para el entorno de R, se ha provisto un prompt para insertar el número en cuestión. Para el propósito de correr este script en el entorno de emulación de Repl.it habría que asignar a la variable x que se muestra inmediatamente debajo el valor deseado, por ejemplo x=0.0025
+### Bloque ================================================
+# INPUT de numero en cuestión en entorno R
+#x = as.numeric(readline(prompt = "Introduce el primer número: "))
+# INPUT del número en cuestión en entorno Repl.it:
+x=0.0050
+### Bloque ================================================
+#FUNCIONES auxiliares y variables de inicialización:
+#Este código es el que determina cuántos decimales tiene el número propuesto. Esta parte del código está tomada de https://stat.ethz.ch/pipermail/r-help/2012-July/317676.html, gracias desde aquí!,
+decimalnumcount<-function(x){stopifnot(class(x)=="numeric")
+ x<-gsub("(.*)(\\.)|([0]*$)","",x)
+ nchar(x)
+ }
+w<-decimalnumcount(x)
+#//////////////////////////////////////////////////////////
+#Guardamos en la variable "y" lo que será el denominador de la fracción:
+y<-switch(w,
+       "1"=10,
+       "2"=100,
+       "3"=1000,
+       "4"=10000,
+	)
+y=as.numeric(y)
+
+# Multipicamos el número propuesto por el valor de y:
+x<-x*y
+
+# Aquí preparamos algunas variables para posteriormente presentar la información en pantalla:
+print(x)
+print(y)
+z<-0
+msg1<-"Cumple: "
+msg2<-"El HCF para los dos números presentados es: "
+msg3<-"La fracción mínima irreducible es: "
+msg4<-"/"
+
+### Bloque ================================================
+# Cálculo del HCF: Vamos a dar con el HCF del la fracción que hemos compuesto con el numerador siendo el número propuesto y el denominador siendo éste último la unidad (1).
+# En un loop comprobamos qué numero, comenzando en 2 y llegando al número propuesto, es el que divide a ambos, a numerador y denominador, dando como resultado un número entero y sin resto.
+i<-2
+while (i<x){
+if ((x%%i==0)&&(y%%i==0)){
+z<-i
+message(msg1, i)}
+else{NaN}
+i=i+1
+z<-i
+}
+# Habiendo salido del loop, tenemos ya en la variable z el HCF del numero propuesto y de su correspondiente denominador.
+message(msg2, z)
+### Bloque ================================================
+# Fracción irreductible a partir del HCF: 
+# Componemos la fracción irreductible que representa el número porpuesto:
+frac1<-(x / z)
+frac2<-(y / z)
+print( paste(msg3, frac1, msg4,frac2 )) 
+# Se inicializan las variable x e y a 0 para cerrar el script.
+x<-0
+y<-0
+
+### EOF------------------------------------

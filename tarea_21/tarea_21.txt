@@ -1,0 +1,18 @@
+//////////////////////////////////////////////////
+Descripción de la tarea número: 21
+==================================================
+Reto: dado un número decimal cualquiera comprendido entre 0.0001 y 0.9999, la fracción irreductible que represente dicho número. 
+Solución propuesta: El código está escrito en el programa R. Las soluciones a este reto pueden ser variadas, nosotros hemos optado por poner el número en cuestión en formato fraccionario, por ejemplo 0.25 se expresaría en fracción así: 
+0.25/1
+Seguidamente, para poder trabajar son cifras no decimales, multiplicamos a numerador y denominador por 10, 100, 1000 o 10000 dependiendo del número de decimales que tiene el número en cuestión. Una vez hecho buscamos el Máximo Común Divisor (HCF) de ambos, para ello nos apoyamos en un loop que hará una iteración en todos los números positivos desde 2 hasta el número en cuestión, ya en formato no decimal, encontrando todos los números que dividen sin resto a la vez a numerador y denominador; el más alto de esos números será el HCF.
+# Para correr el script ha de hacerse en una instalación del entorno de desarrollo R o alternativamente puede emplearse el servicio de emulación de Repl.it en la dirección: https://Tarea21emulacion-R.newburgandrew.repl.run
+
+Listado de sub-tareas del ejercicio:
+------------------------------------
+No hay subtareas
+
+//////////////////////////////////////////////////
+
+Adjuntos: "tarea_21 codigo.txt"
+- - - - - - - - - - - - - - - - - - - - - - - - - 
+Incidencias: No hay
