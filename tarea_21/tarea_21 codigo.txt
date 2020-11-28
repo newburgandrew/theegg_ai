@@ -1,5 +1,5 @@
 # COMIENZO DEL SCRIPT EJECUTABLE
-# Para el entorno de R, se ha provisto un prompt para insertar el número en cuestión. En este script está desactivado, solo habría que activarlo des-comentándolo en esta próxima línea:
+# Para el entorno de R, se ha provisto un prompt para insertar el número en cuestión. En este script está desactivado, solo habría que activarlo des-comentándolo en esta próxima línea y comentar la línea 4, en la que se asigna a la variable "x" un valor de forma manual:
 #x = as.numeric(readline(prompt = "Introduce el primer número: "))
 #Para el propósito de correr este script en el entorno de emulación de Repl.it habría que asignar el valor deseado a la variable x que se muestra inmediatamente debajo, por ejemplo x=0.0025
 ### Bloque ================================================
