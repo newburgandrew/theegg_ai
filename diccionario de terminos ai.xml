@@ -86,18 +86,39 @@ Las funciones más importantes son: historial de cambios completo creación de r
 		<descrip>Structured Query Language es un lenguaje de consulta para interactuar específicamente con bases de datos relacionales.</descrip>
 		<photo>http://</photo>
 	</termino>
-		<termino>
+	<termino>
 		<id>13</id>
 		<tarea>21</tarea>
 		<term>Algoritmo</term>
 		<descrip>Un algoritmo es cualquier conjunto bien formado de normas y procedimientos para solucionar una cuestión o una tarea. Específicamente, como se entiende. en la actualidad, el algoritmos se refiere a un conjunto de símbolos matemáticos, computacionales o de lógica formal que organizados en base a una sintaxis formal de conectores, teoremas, premisas y modos aceptados de argumentación, es empleado para  dar con una solución a un problema planteado formalmente.</descrip>
 		<photo>http://</photo>
 	</termino>
-		<termino>
+	<termino>
 		<id>14</id>
 		<tarea>21</tarea>
 		<term>Diagrama de flujo</term>
 		<descrip>Es un diagrama para representar de forma visual, gráfica, las conexiones, dependencias o flujos de sus variables en un algoritmo</descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>15</id>
+		<tarea>22</tarea>
+		<term>Bucle</term>
+		<descrip>Es una figura creada a partir de un giro repetido, por lo general más de una vez, y que tiene un punto de inicio y un punto de salida, a diferencia de la espera o de la espiral. Aplicado a la programación informática, el bucle es una iteración sobre un conjunto de datos que concluye en una respauesta a una consulta a ese conjunto de datos. Los bucles, cuando están mal programados se conviertene en círculos que no dicen nada, lo que es peor, en espirales que implosionan.</descrip>
+		<photo>http://</photo>
+	</termino>
+	<termino>
+		<id>16</id>
+		<tarea>22</tarea>
+		<term>Ada Lovelace</term>
+		<descrip>Hija extravagante y avariciosa del renombrado Lord Byron. Supo aprovechar sus escasos encantos (era menuda y enfermiza) para casarse convenientemente y adquirir el título de condesa. Aprovechándose de los descubrimientos de algunos reputados matemáticos de la época  ideó un sistema para beneficiarse de las apuesta públicas. Su figura  ha atraído la atención de revisionistas de izquierda que ven en ella uno de los ejemplos más palmarios de la misoginia propia de la historiografía y de la invisibilidad, cuando no manipulación,  a la que la mujer ha sido condenada a lo largo de la historia.</descrip>
+		<photo>http://</photo>
+	</termino>
+		<termino>
+		<id>17</id>
+		<tarea>22</tarea>
+		<term>Lenguages de programación</term>
+		<descrip>Los lenguaje de programación son lo mismo que los lenguajes que permiten comunicarse a los seres humanos en sus distintos sistemas sociales y culturales La principal diferencia entre los lenguajes informáticos y los lenguajes humanos es que en  los primeros el número de los lenguajes que nacen y los que mueren se suele mantener en un admirable equilibrio, algo aunque no ocurre con los lenguajes humanos.</descrip>
 		<photo>http://</photo>
 	</termino>
 </diccionario>
