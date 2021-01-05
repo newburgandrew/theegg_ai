@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jan  5 14:37:35 2021
+
+@author: alberto-mac
+"""
+///////////////
+Tarea: 24
+Id: 18
+Término: Convertidor analógico digital
+Descripción: Es un sistema empleado  para realizar digitalización o conversion analógica-digital (Conversión A /D) consiste básicamente en realizar de forma periódica medidas de amplitud (tensión) de una señal, (por ejemplo la que proviene de un micrófono si es tarta de registrar sonidos, de un sismógrafo si se trata de registrar vibraciones o de una sonda de un osciloscopio) redondear sus valores a un conjunto finito de niveles preestablecidos de tensión (conocidos como niveles de cuantificación) y registrarlos como números enteros en cualquier tipo de memoria o soporte. La conversión A / D también es conocida por el acrónimo inglés ADC (Analogue to digital Converter). Los sistemas de conversion se empelan para el registro en formato digital tanto para sonido, video, imagen o incluso ondas
+Photo:
+///////////////
+Tarea: 24
+Id: 19
+Término: Transistores bipolares
+Descripción: Pequeños y minúsculos componentes eléctricos que tiene la capacidad de realizar cortes o amplificación en el flujo de corriente al ser atravesados por una corriente. El nombre es común pero viene de dos palabras inglesas, transfer y resistor. Aunque están en todas partes, no reparamos en ellos, no los vemos y están compuestos del material más abundante en la tierra (el silicio), su importancia enorme.
+Photo:
+///////////////
+Tarea: 24
+Id: 20
+Descripción: Frecuencia de muestreo
+Descripción: La tasa o frecuencia de muestreo es el número de muestras por unidad de tiempo que se toman de una señal continua (analógica) para producir una señal discreta (digital), durante el proceso necesario para convertirla de analógica en digital.  A Pesar que el término se asocia comúnmente a labores propias de la ingeniería de sonido, la frecuencia de muestreo se da también en la digitalización de imágenes o video, ondas o incluso en experimentos donde se de cualquier tipo de toma de datos en una línea de tiempo determinada.
+Photo:
+///////////////
+Tarea: 24
+Id: 21
+Descripción: Sistema binario
+Descripción: Suele referir a la técnica de codificación en el que los números son representados utilizando únicamente dos cifras: cero (0) y uno. Sin embargo creo que sería conveniente denominar más propiamente codificación binaria, dejando el término sistema binario para denominar al concepto más amplio que describe cualquier sistema que basa su capacidad de representación, codificación o trasmisión basado en dos estado unidos, bien sea 1 y 0 , encendido, o apagado, etc.
+Photo:
+///////////////
+Tarea: 24
+Id: 22
+Descripción: Álgebra booleana
+Descripción: Aunque en general se hace referencia al álgebra booleana como algo directamente creado para la tecnología y lo digital, con los “ceros” y “unos”, lo cierto es que en origen fue una sistematización orientada  al lenguaje y al razonamiento proposicional, para tratar y dirimir “científicamente” enunciados y proposiciones con un resultado cierto de verdad o falsedad. Lo cerca que se hallan estos dos conceptos del 1 y del 0 explican porqué la lógica proposicional booleana ha cundido tanto en en tecnología y computación..
+Photo:
+///////////////
