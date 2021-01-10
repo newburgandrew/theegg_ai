@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jan  5 14:37:35 2021
+
+@author: alberto-mac
+"""
+///////////////
+ |  |  |  |  |  | Asíncrono | Interfaz
+Tarea: 42
+Id: 23
+Término: Código-fuente
+Descripción: Es el conjunto de sentencias organizadas por la sintaxis de un lenguaje de programación antes de ser interpretadas y ejecutadas por una aplicación o dispositivo informático 
+Photo:
+///////////////
+Tarea: 42
+Id: 24
+Término: AJAX
+Descripción: Es una ampliación de Javascript apoyada en DOM y en XML para reducir la dependencia y limitación que javascript tenía respecto a los datos de parte del servidor. Se logra al mantener  la comunicación asíncrona con el servidor en segundo plano. Con esta mejora, se podía actualizar la página con datos de la parte del servidor y de parte del cliente sin tener que realizar una recarga de la página.
+Photo:
+///////////////
+Tarea: 42
+Id: 25
+Descripción: HTML
+Descripción: Lenguaje de marcas usado para estructurar los diversos contenidos de una página web.
+Photo:
+///////////////
+Tarea: 42
+Id: 26
+Descripción: Javascript
+Descripción: lenguaje de programación caracterizado por ser interpretado por un cliente web (navegador). Su uso es cada vez más extendido y se encuentra en gran parte de las funcionalidades ofrecidas por los navegadores en su interacción con el usuario. También es usado para aumentar funcionalidad en aplicaciones de escritorio.
+Photo:
+///////////////
+Tarea: 42
+Id: 27
+Descripción: CSS
+Descripción: Lenguaje de marcas que, insertado en una estructura HTML, es usado para diseñar la apariencia visual los diversos contenidos de una página web.
+Photo:
+///////////////
+Tarea: 42
+Id: 28
+Descripción: Síncrono
+Descripción: Es la concomitancia en el tiempo de dos sucesos. El agente mediador es un transmisor inmediato de los datos o de los elementos de relación entre los dos sucesos.
+Photo:
+///////////////
+Tarea: 42
+Id: 29
+Descripción: Asíncrono
+Descripción: Es la no concomitancia en el tiempo de dos sucesos, es decir, la relación de consecuencia o interacción entre ambos sucesos se realiza en dos momentos separados en el tiempo; el agente mediador realiza una demora conveniente y planificada en el sistema.
+Photo:
+///////////////
+Tarea: 42
+Id: 30
+Descripción: Interfaz
+Descripción: En tecnología web, interfaz o interface, es conjunto de elementos visuales o sonoros de una aplicación web que permite la interpretación por parte del usuario de los elementos estáticos o dinámicos que contiene dicha aplicación y, a su vez, que permiten la interacción efectiva del usuario con la aplicación.
+Photo:
+///////////////
+
