@@ -1,0 +1,38 @@
+///////////////
+Tarea: 25
+Id: 31
+Descripción: Arquitectura cliente-servidor 
+Descripción: Paradigma  de comunicación que desde hace décadas estructura prácticamente la totalidad de los sistemas informáticos. El paradigma consta de equis que actúan como clientes de servicios y servidores que proveen dichos servicios. La comunicación es posible gracias a protocolos estándares extendidos y robustos que se encargan de hacer efectiva la comunicación entre distintos sistemas operativos que componen una red. 
+Photo:
+///////////////
+Tarea: 25
+Id: 32
+Descripción: Protocolo-TCP/IP
+Descripción: Es un tándem de dos protocolos de la arquitectura cliente-servidor, encargado de establecer el acuerdo de comunicación  y la entrega de paquetes de datos entre un cliente y un servidor en una red. IP es la parte encargada de las  direcciones a las que se envían y desde las que se mandan los paquetes y TCP el que se encarga de la negociación y gestión de la llegada y envío de paquetes de datos.
+Photo:
+///////////////
+Tarea: 25
+Id: 33
+Descripción: Protocolo-FTP
+Descripción: Es un protocolo de la arquitectura cliente-servidor, encargado de establecer la  comunicación  entre un cliente y un servidor para enviar y recibir archivos entre uno y otro. 
+Photo:
+///////////////
+Tarea: 25
+Id: 34
+Descripción: Servidor web
+Descripción: Es cualquier computadora conectada a una red informática que pone a disposición de cualquier otra computadora (cliente) datos y servicios como pueden ser  contenido multimedia, bases de  datos, emails, etc.
+Photo:
+///////////////
+Tarea: 25
+Id: 35
+Descripción: DNS
+Descripción: Es 
+Photo:
+///////////////
+Tarea: 25
+Id: 36
+Descripción: IP
+Descripción: Es un código numérico hexadecimal que permite identificar de forma única y ordenada cualquier dispositivo conectado a la red de redes a través del protocolo TCP/IP.
+Photo:
+///////////////
+
