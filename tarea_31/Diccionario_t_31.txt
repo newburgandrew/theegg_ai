@@ -1,0 +1,19 @@
+///////////////
+Tarea: 31
+Id: 37
+Descripción: Bases de datos
+Descripción: En realidad una base de datos es un conjunto de datos. Claro que los datos en sí, sin una estructura que los agrupe, que haga en conjunto de datos ni sería sino ceros y unos perdidos en la noosfera. Por ello, propiamente, una base de datos es una estructura relacional soportada por una aplicación de gestión de datos y alojada en un servidor de (bases) de datos.
+Photo:
+///////////////
+Tarea: 31
+Id: 38
+Descripción: Data preprocessing
+Descripción: En data management se refiere al proceso de transformación de los datos para su posterior uso, bien para análisis de datos en AI o para uso y explotación de datos en herramientas comerciales. La transformación puede significar codificación, limpieza o reorganización de los datos para que sean significativos, consistentes o accesibles a algoritmos de análisis, cálculo o consulta.
+Photo:
+///////////////
+Tarea: 31
+Id: 39
+Descripción: ETL
+Descripción: Acŕonimo de las palabras Extraction, Transformation y Load, que en jerga de data management se refiere al proceso necesario de extracción de dato de diferente fuentes, el proceso de transformación y limpieza para que sean significativos y consistentes con un modelo de negocio o de conocimiento y, finalmente, el proceso de recarga en un sistema de, almacenamiento para su consulta o análisis
+Photo:
+///////////////
