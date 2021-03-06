@@ -1,0 +1,42 @@
+Tarea: 51
+Id: 36
+Término: Sistema-Operativo
+Descripción: Articulación de elementos de software que, debidamente estructurados y puestos en relación funcional mediante el intercambio de datos e instrucciones, proveen de funcionalidades de carácter general a un computador y a sus periféricos.
+Photo:
+///////////////
+Tarea: 51
+Id: 36
+Término: Linux
+Descripción: Linux es un sistema operativo que se caracteriza principalmente por su carácter abierto, frente a otros sistemas operativos propietarios. A pesar de que en el mercado doméstico o profesional su presencia es limitada, en el mundo de los servidores es ampliamente utilizado.
+Photo:
+///////////////
+Tarea: 51
+Id: 37
+Descripción: CPU
+Descripción: CPU son las siglas de Central Processing Unit, Unidad Central de Procesamiento. Comúnmente se le suele denominar microprocesador. Es la pieza fundamental de la computación pero no se encarga a pesar de ello de realizar todas las tareas (muchas quedan delegadas en otros componentes como la RAM, la tarjeta gráfica, etc); así su labor tiene más que ver con la coordinación y dirección de los cálculos realizados en el sistema.
+Photo:
+///////////////
+Tarea: 51
+Id: 38
+Descripción: GPU
+Descripción: GPU es el acrónimo de Graphics Processing Unit y se refiere al microprocesador que específicamente se encarga de los procesos de cálculo relativo a las funciones gráficas del computador.
+Photo:
+///////////////
+Tarea: 51
+Id: 39
+Descripción: Periférico
+Descripción: Son los componentes auxiliares a las tareas de procesamiento y cálculo de procesador, mediante ellos se provee de datos de entrada y salida al sistema, capacidad de almacenamiento de los datos, así como otras funciones básicas de comunicación necesarias para que la computadora se pueda comunicar con otras computadoras.
+Photo:
+///////////////
+Tarea: 51
+Id: 40
+Descripción: Terminal
+Descripción: En informática, se denomina terminal o consola a un dispositivo electrónico, electromecánico o computacional (revisar) que se utiliza para interactuar con un computador. El ejemplo más cercano de ello sería un terminal ligero que, con menos capacidad de proceso y con una configuración básica (incluso de sistema operativo), es capaz de ejercer de medio de entrada a un servidor. Terminal en el entorno Linux se refiere al interfaz textual para manejar el sistema mediante líneas de comando.
+Photo:
+///////////////
+Tarea: 41
+Id: 35
+Descripción: Interfaz
+Descripción: Interfaz (interfaces, en plural) se refiere en informática a un subsistema que permite la conexión funcional entre dos sistemas, programas, dispositivos o componentes de cualquier tipo que proporciona una comunicación de distintos niveles, permitiendo el intercambio de información. Cuando la conexión es un computador y un usuario nos referiremos a interface de usuario.
+Photo:
+///////////////
