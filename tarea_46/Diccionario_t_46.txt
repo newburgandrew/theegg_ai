@@ -4,25 +4,25 @@ Término: Estadística descriptiva
 Descripción: La estadística descriptiva, también conocida como estadística deductiva, es la rama de la estadística que se encarga de resumir listas largas de datos con el objetivo de obtener las características generales de un determinado grupo. Este tipo de estadística se utiliza para organizar, sintetizar y describir información de una manera fácil y rápida. Comúnmente también emplea gráficos, cuadros y tablas para representar los valores y facilitar la comprensión de los datos. (fuente:https://enciclopediaeconomica.com/estadistica-descriptiva-inferencial/). He optado por poner esta definición porque ofrece una visión global de la estadística en relación a la generación de conocimiento, en sus formas básicas: deductiva e inferencial. La estadística inferencial, también conocida como estadística inductiva, es la rama de la estadística que analiza y estudia los datos de una población a partir de una muestra extraída. Este método se encarga de analizar y estudiar los datos más allá de la estadística descriptiva, con el objetivo de tomar decisiones y realizar predicciones.
 Photo:
 ///////////////
-Tarea: 42
+Tarea: 46
 Id: 32
 Término: Análisis exploratorio
 Descripción: En algunos autores (http://cms.dm.uba.ar/academico/materias/verano2015/estadisticaQ/descriptiva.pdf) el análisis exploratorio lo identifican a la estadistica descriptiva, sin embargo, creo que el análisis exploratorio es un caso particular de la estadística descriptiva que se refiere a tácticas o técnicas, de tipo heurístico incluso, que sería un arte de observar a uno o más datasets en un esfuerzo de comprender la estructura subyacente de los datos contenidos en ellos.
 Photo:
 ///////////////
-Tarea: 42
+Tarea: 46
 Id: 33
 Descripción: Dato estructurado
 Descripción: Los datos estructurados tienen perfectamente definidas su longitud, formato o el tamaño de sus datos. Asi mismo suelen tener definidas las relaciones de algún tipo entre los distintos datos que les permite estar conectados con otros datos en un esquema relacional dado. Ejemplos serían una tabla, una hoja de cálculo o una base de datos relacional.
 Photo:
 ///////////////
-Tarea: 42
+Tarea: 46
 Id: 34
 Descripción: Dato semiestructurado
 Descripción: Se refiere a datos que estan ordenados o que contienen alguna mínima estructura categorial, por ejemplo una tabla de doble entrada, un archivo XML, pero de los cuales no se puede extraer información de manera inmediata, es decir, sin un previo proceso de significación o categorización de los mismos.
 Photo:
 ///////////////
-Tarea: 42
+Tarea: 46
 Id: 35
 Descripción: dato-noestructurado
 Descripción: Son los datos que podemos hallar en una fuente de información en la que los datos no están ordenados, categorizados o dispuestos de forma sistematizada. Por ejemplo un texto escrito, un podcast, una imágen o un video.
