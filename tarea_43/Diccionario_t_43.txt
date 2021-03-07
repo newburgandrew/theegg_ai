@@ -1,0 +1,30 @@
+Tarea: 43
+Id: 43
+Término: SQL
+Descripción: Structured Query Language, es un lenguaje de consulta de bases de datos relacionales. Articula una sintaxis para acometer instrucciones de definición de datos, de manipulación de datos y de control de datos.
+Photo:
+///////////////
+Tarea: 43
+Id: 44
+Término: Bases de datos relacionales
+Descripción: Son bases de datos que cuenta con una estructura relacional para facilitar el acceso a los datos y la búsqueda cruzada por categorías y clases. El modelo relacional está basado en la lógica de predicados y en la teoría de conjuntos  y teorías lógico-matemáticas, así, la relación de inclusión, exclusión, los conectores AND, OR, ...)
+Photo:
+///////////////
+Tarea: 43
+Id: 45
+Descripción: MySQL
+Descripción: Es un sistema de gestor de bases de datos relacionales desarrollado bajo licencia dual, mitad abierto, mitad propietario comandado por la empresa MySQL AB. La gran integración lograda con el lenguaje de la parte de servidor PHP y en conjunción con los servidores Apache y el sistema operativo Linux lo ha convertido en uno de los sistemas de bases de datos más usados en el mundo y ha logrado tener una presencia muy amplia en aplicaciones y servidores de datos.
+Photo:
+///////////////
+Tarea: 43
+Id: 46
+Descripción: postgreSQL
+Descripción: Es un sistema gestor de base de datos de tipo relacional y orientado a objetos y que es de tipo código abierto.
+Photo:
+///////////////
+Tarea: 43
+Id: 47
+Descripción: MongoDB
+Descripción: Sistema gestor de bases de datos, de código abierto pero que, a diferencia de los anteriores, no es de tipo relacional sino orientado a documentos.
+Photo:
+///////////////
