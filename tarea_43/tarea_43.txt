@@ -2,7 +2,7 @@
 Descripción de sub-tareas para la tarea número: 43
 ==================================================
 He realizado 15 pantallas de la aplicación web https://sqlpd.com/.
-Adjunto pantallazos de las tareas realizadas, incluidos pantallazos de la tareas que se han hecho en un segundo intento.
+Adjunto 12 pantallazos de las sentencias SQL que he ejecutado para pasar las 18 pantallas que me ha permitido hacer la versión libre de la aplicación. Las 6 pantallas que no han sido incluidas son las primeras de la tarea que por ser muy sencillas no he considreado necesario incluirlas.
 
 Listado de sub-tareas del ejercicio:
 ------------------------------------
