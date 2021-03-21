@@ -1,0 +1,18 @@
+Tarea: 50
+Id: 48
+Término: Ética
+Descripción: Conviene, de forma ineludible en el contexto en el que nos encontramos de AI, recordar que el discurso en torno a la ética toma dos caminos: por una parte la reflexión racional en torno al bien y al mal y sobre la acción humana a la luz ambos y, por otra parte, se refiere al sistema de normas que rigen el comportamiento humano y social. La primera se mueve en un terreno movedizo ya que pretende asentar conclusiones racionales sobre axiomas morales, el bien y el mal. La segunda, si bien no puede concretarse sin una mirada a la cuestión del bien y del mal, se centra más en las deliberaciones, asunciones y  convenciones que la sociedad toma ante cuestiones políticas, científicas médicas, tecnológicas, etc.. 
+Photo:
+///////////////
+Tarea: 50
+Id: 49
+Término: Inteligencia Artificial
+Descripción: Concepto mixto que hereda su complejidad de la indeterminación de los dos conceptos que lo conforman: Inteligencia por un lado y artificial por el otro. Si bien hasta el siglo XX lo artificial y lo natural podríamos acordar que quedaba meridianamente delimitado, hoy en día no queda tan claro.Por otra parte el concepto de inteligencia tiene aristas desde el punto de vista de la ciencia, la psicología cognitiva, la neurociencia, etc. Para centrarnos diremos que  AI es la consecución de inteligencias de síntesis que simulen o superen las capacidades cognitivas del ser humano.
+Photo:
+///////////////
+Tarea: 50
+Id: 50
+Descripción: Datos
+Descripción: Cualquier tipo de input, en principio codificado en base binaria y, por ello, susceptible de transmisión, codificación, almacenamiento y transformación computerizada, que son la fuente en acciones de obtención o destilación de información y que, más allá, mediados los procesos de inteligencia o formalización, puede dar lugar a conocimiento.
+Photo:
+///////////////
