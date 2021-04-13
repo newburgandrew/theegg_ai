@@ -4,7 +4,8 @@ Descripción de sub-tareas para la tarea número: 50
 
 APORTACIÓN A LA TAREA 50
 
-
+Ver documento adjunto en el repositorio:
+"Texto completo Tarea 50.pdf"
 
 
 Listado de sub-tareas del ejercicio:
@@ -13,6 +14,6 @@ No hay subtareas
 
 //////////////////////////////////////////////////
 
-Adjuntos: No hay
+Adjuntos: "Texto completo Tarea 50.pdf"
 - - - - - - - - - - - - - - - - - - - - - - - - - 
 Incidencias: No hay
