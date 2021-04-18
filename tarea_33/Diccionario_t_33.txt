@@ -1,0 +1,12 @@
+Tarea: 33
+Id: 51
+Término: Diagrama de flujo
+Descripción: Un diagrama de flujo es una representación gráfica que desglosa un proceso cualquiera en secuencias de rutinas simples y en el que se incluyen las unidades involucradas y los componentes responsables de la ejecución del proceso así como el flujo y sentido de los datos que se comparten entre dichas unidades. 
+Photo:
+///////////////
+Tarea: 33
+Id: 52
+Término: Bucles en programación
+Descripción: En programación, un bucle o instrucción de control repetitiva (o iterativa) permite ejecutar una o más instrucciones varias veces, es decir, permite ejecutar un bloque de instrucciones repetidamente, escribiéndolas una sola vez en el algoritmo (o programa), reduciendo de este modo el código del mismo. A los bucles también se los conoce como ciclos o lazos. (Fuente: Carlos Javier Pes Rivas)
+Photo:
+///////////////
