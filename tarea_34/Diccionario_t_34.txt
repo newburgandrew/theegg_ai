@@ -1,0 +1,18 @@
+Tarea: 34
+Id: 51
+Término: API
+Descripción: API es un interfaz de programación de aplicaciones (Application Programming Interfaces), Es la forma en que una aplicación abre  parte de su código a la interacción con otras aplicaciones para realizar servicios específicos o interactuar en funciones conjuntas.  La comunicación entre esas dos aplicaciones se realiza a través de un conjunto de reglas y protocolos que se documentan específicamente de forma que el usuario de esa API sepa en qué condiciones y hasta qué punto puede usar los métodos y funciones de ficha API.  
+Photo:
+///////////////
+Tarea: 34
+Id: 52
+Término: JSON
+Descripción: JavaScript Object Notation (JSON) es un formato de datos de texto estándar para representar datos estructurados y poder transmitir datos entre aplicaciones web cliente-cliente o desde el servidor al cliente. JSON sigue la sintaxis de objeto de JavaScript aunque puede ser usado en otros entornos de programación distintos a Javascript.
+Photo:
+///////////////
+Tarea: 34
+Id: 53
+Término: XML
+Descripción: XML (Extensible Markup Language) es un metalenguaje que permite definir lenguajes de marcas desarrollado en código abierto por el W3C. Es un estándar para el intercambio de información estructurada entre diferentes plataformas y para almacenar datos en forma legible y en documentos semi-estructurados, tanto en bases de datos, editores de texto, hojas de cálculo, etc.
+Photo:
+///////////////
