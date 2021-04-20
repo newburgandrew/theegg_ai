@@ -1,0 +1,18 @@
+Tarea: 36
+Id: 54
+Término: Bases de datos
+Descripción: Una base de datos (DB) es un conjunto de datos almacenados y consultados de forma sistemática. Las DB contiene un conjunto relacionado de archivos (llamados tablas también), los cuales estan compuestos una colección de registros, los cuales están compuestos de uno o más campos. Estos campos alojan datos individuales y de tipo homogéneo (numérico, decimal, texto, booleano,...), datos que tomados aisladamente ofrecen poca o ninguna información. La presente definición se adapta a las DB tipo relacional; hay no obstante otros tipos de DB en los que no se establecen de forma tan estricta las relaciones entre archivos y campos; estas son las DB no relacionales. 
+Photo:
+///////////////
+Tarea: 36
+Id: 55
+Término: SQL
+Descripción: SQL (Structured Query Language, lenguaje de consulta estructurada) es un lenguaje diseñado especificamente para administrar y recuperar información de sistemas de  bases de datos relacionales.
+Photo:
+///////////////
+Tarea: 36
+Id: 56
+Término: NoSQL
+Descripción: Es una clase de sistemas de gestión de bases de datos que están diseñados de forma no relacional y no emplean SQL como lenguaje principal y por ello los datos almacenados no tienen porqué atenerse a estructuras fijas como tablas, por ejemplo, siendo esto una de sus ventajas. De otro lado adolecen de operaciones comunmente utilizadas en el mundo SQL como las operaciones de encadenamiento de campos (JOIN) ni garantizan completamente la conformidad a las propiedades conocidas como ACID (atomicidad, consistencia, aislamiento y durabilidad), que son la base de la fiabilidad con que cuentan las DB tipo relacional.
+Photo:
+///////////////
