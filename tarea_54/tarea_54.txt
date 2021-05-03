@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////
+Descripción de sub-tareas para la tarea número: 54
+==================================================
+Esta tarea consiste en conocer la IP de tu equipo y hallar, através de la herramienta online nmap, los puertos que están abiertos.
+
+Listado de sub-tareas del ejercicio:
+------------------------------------
+Fecha: 3-5-2021:
+
+1- Resultado de la consulta de IP en nmap:
+Mi IP: 195.219.98.20
+
+2- Resultado de la consulta de Puertos en nmap:
+Resultado:
+“All 1000 scanned ports on 195.219.98.20 are filtered (996) or closed (4)
+Nmap done: 1 IP address (1 host up) scanned in 1395.78 seconds”
+
+3- Comentario propio:
+Según la documentación de la herramienta nmap, los puertos que dan como resultado “filtered” (en ese vaso 996) son aquellos en los que nmap no ha podido determinar si están abiertos o cerrados porque la información que le llega es escasa; en principio por el filtrado d paquetes que realiza el firewall o router. En el caso de “closed” se refiere a que nmap no puede determinar, si está cerrado o filtrado.
+
+Ref: https://man7.org/linux/man-pages/man1/nmap.1.html#:~:text=Filtered%20means%20that%20a%20firewall,open%20up%20at%20any%20time.
+
+//////////////////////////////////////////////////
+
+Adjuntos: Diccionario_t_54.txt
+- - - - - - - - - - - - - - - - - - - - - - - - - 
+Incidencias: No hay

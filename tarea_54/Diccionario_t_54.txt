@@ -1,0 +1,53 @@
+
+The Egg
+Tarea 54
+
+Mi IP: dia 3-5-2021:
+195.219.98.20
+Resultado:
+“All 1000 scanned ports on 195.219.98.20 are filtered (996) or closed (4)
+Nmap done: 1 IP address (1 host up) scanned in 1395.78 seconds”
+
+Según la documentación de la herramienta nmap, los puertos que dan como resultado “filtered” (en ese vaso 996) son aquellos en los que nmap no ha podido determinar si están abiertos o cerrados porque la información que le llega es escasa; en principio por el filtrado d paquetes que realiza el firewall o router. En el caso de “closed” se refiere a que nmap no puede determinar, si está cerrado o filtrado.
+
+Ref: https://man7.org/linux/man-pages/man1/nmap.1.html#:~:text=Filtered%20means%20that%20a%20firewall,open%20up%20at%20any%20time.
+
+
+
+
+Tarea: 54
+Id: 53
+Término: Pentesting
+Descripción: Es una palabra compuesta que hacer referencia. A los términos “penetration” y a “testing”. Se usa para referirse a aquellos procedimientos que permiten comprobar de forma real el grado de penetración que admite un sistema informático ante agentes no autorizados.
+Photo:
+///////////////
+Tarea: 54
+Id: 54
+Término: Ransomware
+Descripción: El malware de rescate, o ransomware, es un tipo de malware que impide a los usuarios acceder a su sistema o a sus archivos personales y que exige el pago de un rescate para poder acceder de nuevo a ellos (Fuente: https://es.malwarebytes.com/ransomware)
+Photo:
+///////////////
+Tarea: 54
+Id: 55
+Término: Phishing
+Descripción: Es un estafador que se vale de técnicas de ingeniería social, haciéndose pasar por una persona o empresa de confianza en una aparente comunicación oficial electrónica, por lo general un correo electrónico, o algún sistema de mensajería instantánea, redes sociales, bien por medio de un malware o incluso utilizando formas convenciones de interacción como pueden ser llamadas telefónicas (Fuente: https://www.infospyware.com)
+Photo:
+///////////////
+Tarea: 54
+Id: 56
+Término: Ciberseguridad
+Descripción: El termino se refiere a el conjunto de técnicas, herramientas o procedimientos que tienen que ver con la seguridad de los sistemas tecnológicos e informáticos en el entorno de las TIC y las redes informáticas.
+Photo:
+///////////////
+Tarea: 54
+Id: 57
+Término: Spyware
+Descripción: Spyware o spybot, es un programa malicioso espía utilizado para recopilar información de un ordenador o dispositivo informático y transmitir la información a una entidad externa sin el permiso del dueño del ordenador para recopilar datos e información privada, hábitos de navegación, nombres, etc. 
+Photo:
+///////////////
+Tarea: 54
+Id: 58
+Término: Troyano
+Descripción: Es un tipo de malware que se presenta al usuario como un programa aparentemente legítimo e inofensivo, pero que, al ejecutarlo, ofrece al atacante acceso remoto al equipo infectado mediante la creacion de una puerta trasera (en inglés backdoor) en alguno d los puertos que l usuario infectado tenga abierto. De esta forma el atacante puede administrar de forma remota el equipo infectado. Para que un malware sea un troyano solo tiene que acceder y controlar la máquina anfitriona sin ser advertido por el atacado.
+Photo:
+///////////////
