@@ -1,42 +1,12 @@
-Tarea: 52
-Id: 59
-Término: Estructura de datos
-Descripción: Es una palabra compuesta que hacer referencia. A los términos “penetration” y a “testing”. Se usa para referirse a aquellos procedimientos que permiten comprobar de forma real el grado de penetración que admite un sistema informático ante agentes no autorizados.
+Tarea: 55
+Id: 66
+Término: Línea de comandos
+Descripción: La interfaz de línea de comandos o interfaz de línea de órdenes (en inglés, command-line interface, CLI) es un método que permite a los usuarios dar instrucciones a algún programa informático por medio de una línea de texto simple, prescindiendo del interface gráfico del sistema operativo.
 Photo:
 ///////////////
-Tarea: 52
-Id: 60
-Término: Array
-Descripción: Un array es un medio de guardar un conjunto de objetos de la misma clase. Se accede a cada elemento individual del array mediante un número entero denominado índice.
-Photo:
-///////////////
-Tarea: 52
-Id: 61
-Término: Lista enlazada
-Descripción: Los datos se unen con punteros. Así la búsqueda se realiza de manera muy rápida. El añadir y quitar también se realiza de forma muy fácil. El problema es que la búsqueda se realiza a partir  del punto de inicio de la lista.
-Photo:
-///////////////
-Tarea: 52
-Id: 62
-Término: Grafo
-Descripción: Estructuras complejas  usadas en computación para multitud de propósitos y permite hacer conjuntos de datos en base a las relaciones entre ellos lo que los hace muy útiles en algoritmos de búsqueda.  
-Photo:
-///////////////
-Tarea: 52
-Id: 63
-Término: Colas
-Descripción: FIFO, First In First Out
-Photo:
-///////////////
-Tarea: 52
-Id: 64
-Término: Pilas
-Descripción: LIFO, Last In Last Out
-Photo:
-///////////////
-Tarea: 52
-Id: 65
-Término: Árboles
-Descripción: Por ejemplo los árboles son grafos. Por ejemplo los arboles de Merkel, usados en bitcoins.
+Tarea: 55
+Id: 67
+Término: Consola
+Descripción: En sistemas Windows, la consola se denomina símbolo del sistema (Command prompt – línea de comandos o CMD) y es la aplicación utilizada en sistemas basados en NT (Windows XP, Windows 7, Windows 8, Windows 10, Windows Server) para ejecutar comandos MS-DOS (.exe de 16 bits) y otros como scripts con formato .bat y .sys.
 Photo:
 ///////////////
