@@ -1,20 +1,3 @@
-
-The Egg
-Tarea 54
-
-Mi IP: dia 3-5-2021:
-195.219.98.20
-Resultado:
-“All 1000 scanned ports on 195.219.98.20 are filtered (996) or closed (4)
-Nmap done: 1 IP address (1 host up) scanned in 1395.78 seconds”
-
-Según la documentación de la herramienta nmap, los puertos que dan como resultado “filtered” (en ese vaso 996) son aquellos en los que nmap no ha podido determinar si están abiertos o cerrados porque la información que le llega es escasa; en principio por el filtrado d paquetes que realiza el firewall o router. En el caso de “closed” se refiere a que nmap no puede determinar, si está cerrado o filtrado.
-
-Ref: https://man7.org/linux/man-pages/man1/nmap.1.html#:~:text=Filtered%20means%20that%20a%20firewall,open%20up%20at%20any%20time.
-
-
-
-
 Tarea: 54
 Id: 53
 Término: Pentesting
