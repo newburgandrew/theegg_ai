@@ -21,7 +21,6 @@ Según la documentación de la herramienta nmap, los puertos que dan como result
 Ref: https://man7.org/linux/man-pages/man1/nmap.1.html#:~:text=Filtered%20means%20that%20a%20firewall,open%20up%20at%20any%20time.
 
 //////////////////////////////////////////////////
-
 Adjuntos: Diccionario_t_54.txt
 - - - - - - - - - - - - - - - - - - - - - - - - - 
 Incidencias: No hay
