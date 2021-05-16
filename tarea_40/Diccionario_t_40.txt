@@ -1,0 +1,60 @@
+Tarea: 40
+Id: 68
+Término: Pentesting
+Descripción: Palabra compuesta del inglés, "penetration" y "testing", que se refiere a las técnicas empleadas en informática y computación para poner a prueba el grado de seguridad de las redes y los sistemas informáticos.
+Photo:
+///////////////
+Tarea: 40
+Id: 69
+Término: XSS
+Descripción: Cross-site scripting, o secuencia de comandos en sitios cruzados en castellano, es un tipo de vulnerabilidad informática o agujero de seguridad típico de las aplicaciones Web. El modo de acceso suele ser mediante código JavaScript o similar como VBScript. A través de las etiquetas <iframe> o <script> es posible inyectar código malicioso en páginas HTML. Otra forma habitual es a través de la comunicación que las aplicaciones web hacen en sus rutinas empleando las cabeceras HTTP.
+Photo:
+///////////////
+Tarea: 40
+Id: 70
+Término: Inyección SQL
+Descripción: Es un tipo de ataque específico de los entornos de bases de datos relacionales, en el que se inserta código malintencionado en cadenas que posteriormente se pasan a una instancia del lenguaje SQL para su ejecución. Se apoya en el hecho de que el servidor SQL ejecuta todas las consultas recibidas que sean válidas desde el punto de vista sintáctico.
+Photo:
+///////////////
+Tarea: 40
+Id: 71
+Término: Ataque informático
+Descripción: Cualquier ataque que se produzca con medios informáticos o computacionales y que tiene como objetivo socavar la seguridad, integridad o privacidad de un sistema informático.
+Photo:
+///////////////
+Tarea: 40
+Id: 72
+Término: Ataque DDoS
+Descripción: DDoS (Distributed Denial Of Service) es un tipo de ataque dirigido principalmente a socavar un servidor (web, SMTP,...) o una infraestructura de hardware. A diferencia del DoS, en el que el atacante parte de un único sistema, el DDoS es un tipo de ataque en el que se utilizan varios sistemas secuestrados para atacar al sistema objetivo. La consecuencia de un ataque DDoS es que se realizan de forma provocada y fraudulenta innumerables consultas a un servidor que hace que se exceda su capacidad de respuesta a peticiones y se bloquee.
+Photo:
+///////////////
+Tarea: 40
+Id: 73
+Término: Ingeniería social
+Descripción: La ingeniería Social es un tipo de ataque basado en engañar a un usuario o administrador de un sitio en la internet, para poder acceder información sensible del servicio o del sistema administrado o a los datos privados del usuario en cuestión. Se basa en la creación de simulaciones de entornos seguros en los que el usuario o administrador baja la guardia y accede a pasar su consentimiento o información de forma no segura.
+Photo:
+///////////////
+Tarea: 40
+Id: 74
+Término: Hacker
+Descripción: Es la persona que realiza acciones de hackeo.El hackeo es la aplicación de tecnología o conocimientos técnicos para superar alguna clase de barrera o protección en un entorno de sistemas de red informática. Los hacker lo pueden hacer de forma lúdica, como prueba de habilidad, con fines lucrativos y delictivos o como parte del espionaje industrial o entre estados.
+Photo:
+///////////////
+Tarea: 40
+Id: 75
+Término: Cracker
+Descripción: Cracker son hackers que vulneran algún sistema de seguridad de forma ilícita, bien por ánimo de lucro como acto de desobediencia o protesta. La confusión con el término genérico hacker ha hecho que el término cracker quede restringido a aquellos que se dedican a editar ilegalmente software informático.
+Photo:
+///////////////
+Tarea: 40
+Id: 76
+Término: Man-in-the-middle
+Descripción: Es un tipo de ataque en el cual el intruso logra introducirse en el canal de comunicación informático de dos agentes, sin que ellos tomen cuenta de ello. La intrusión puede tener como consecuencia la modificación, alteración del mensaje entre los dos agentes víctima o la obtención de su información valiosa para beneficio del atacante.
+Photo:
+///////////////
+Tarea: 40
+Id: 76
+Término: Phising
+Descripción: Es engañar a una persona, mediante suplantación de la identidad de una persona u organización de confianza, para que comparta información confidencial como contraseñas o números de tarjetas de crédito.
+Photo:
+///////////////
