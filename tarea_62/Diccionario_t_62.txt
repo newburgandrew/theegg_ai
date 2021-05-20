@@ -1,0 +1,30 @@
+Tarea: 62
+Id: 78
+Término: Bash
+Descripción: Bash es un intérprete de comandos que ejecuta, una por una, las instrucciones introducidas por el usuario o contenidas en un script y devuelve los resultados.
+Photo:
+///////////// 
+Tarea: 62
+Id: 79
+Término: Shell
+Descripción: Un shell es simplemente un macroprocesador que ejecuta comandos, sobre ella corre bash, uno más entre otros lenguajes de comandos del terminal.
+Photo:
+///////////// 
+Tarea: 62
+Id: 80
+Término: Script
+Descripción: Las lineas de comando que se ejecutan en bash en un terminal, pueden juntarse en un archivo de texto simple y ser ejecuatados conjuantamente mediante una llamada a dicho archivo desde el terminal con un comando de llamada específico.
+Photo:
+///////////// 
+Tarea: 62
+Id: 81
+Término: Interprete
+Descripción: El intérprete de comandos también se llama SHELL y puede ser de muchos tipos distintos (BASH, SH, etc.)
+Photo:
+///////////// 
+Tarea: 62
+Id: 82
+Término: Compilador
+Descripción: Un compilador es un programa que traduce un programa fuente escrito en algún lenguaje de programación de alto nivel (C, .NET, Java) en código de máquina para alguna arquitectura de computadora.
+Photo:
+///////////// 
