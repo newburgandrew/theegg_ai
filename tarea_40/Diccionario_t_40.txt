@@ -53,7 +53,7 @@ Descripción: Es un tipo de ataque en el cual el intruso logra introducirse en e
 Photo:
 ///////////////
 Tarea: 40
-Id: 76
+Id: 77
 Término: Phising
 Descripción: Es engañar a una persona, mediante suplantación de la identidad de una persona u organización de confianza, para que comparta información confidencial como contraseñas o números de tarjetas de crédito.
 Photo:
