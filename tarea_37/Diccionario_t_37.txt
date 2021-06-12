@@ -1,0 +1,54 @@
+Tarea: 37
+Id: 78
+Término: Dirección-IP
+Descripción: La dirección IP es un conjunto de números que identifica, de manera sistemática y jerárquica, a un dispositivo, computadora, teléfono inteligente que utiliza el protocolo IP (Internet Protocol).
+Photo:
+///////////////
+Tarea: 37
+Id: 79
+Término: Internet
+Descripción: Conocido como "La Red de redes", es un sistema informatizado emergente y descentraliado que permite poner a disposición de la humanidad en general el conjuto de la información digitalizada.
+Photo:
+///////////////
+Tarea: 37
+Id: 80
+Término: Red-WAN
+Descripción: Una red WAN es un subconjunto de "La Red de redes". Dichas redes combinan redes locales con redes de amplio alcance aprovechando la conectividad y la privacidad de Internet.
+Photo:
+///////////////
+Tarea: 37
+Id: 81
+Término: Máscara de subred
+Descripción: La máscara de red es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores. Su función es indicar a los dispositivos qué parte de la dirección IP es el número de la red, incluyendo la subred, y qué parte es la correspondiente al host.
+Photo:
+///////////////
+Tarea: 37
+Id: 82
+Término: Router
+Descripción: Un router es un dispositivo que se utiliza para distribuir señal de Internet entre un equipo y otros equipos conectados en la red de redes, ya sea a través de Ethernet por intermedio de un cable, o bien por medio de la tecnología de ondas de radio.
+Photo: 
+///////////////
+Tarea: 37
+Id: 83
+Término: Switch
+Descripción: Un switch o conmutador es un dispositivo de interconexión utilizado para conectar equipos en red formando lo que se conoce como una red de área local (LAN) y cuyas especificaciones técnicas siguen el estándar conocido como Ethernet.
+Photo:
+///////////////
+Tarea: 37
+Id: 84
+Término: TCP-IP
+Descripción: El modelo TCP/IP es un conjunto de protocolos, el TCP, para envío de paquetes y el protocolo IP para el enrutamiento de paquetes entre nodos identificados con el formato IP. Es usado para comunicaciones en redes y, como todo protocolo, describe un conjunto de guías generales de operación para permitir que un equipo pueda comunicarse en una red. TCP/IP provee conectividad de extremo a extremo especificando cómo los datos deberían ser formateados, direccionados, transmitidos, enrutados y recibidos por el destinatario.
+Photo:
+///////////////
+Tarea: 37
+Id: 85
+Término: IP pública
+Descripción: Una IP Pública es la dirección que te asigna tu proveedor de acceso a Internet y sirve para identificarte de dentro de Internet cuando te conectas.
+Photo:
+///////////////
+Tarea: 37
+Id: 86
+Término: IP privada
+Descripción: Es la IP que se utilizan en redes privadas (red doméstica o de un oficina, por ejemplo) y en virtud de la cual se puede identificar individualmente, y por ello se pueden conectar, un dispositivo a dicha red. Cada equipo tendrá así una IP propia de forma que no haya conflictos ellos cada uno tendrá una IP diferente.
+Photo:
+///////////////
