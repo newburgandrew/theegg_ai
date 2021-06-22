@@ -1,0 +1,38 @@
+////////////////////////////////////// 
+Descripción de las sub-tareas para la tarea número: 39
+=============================================
+El objetivo de esta tarea es hacer uso de la aplicación Cisco PacketTracer para simulara redes.
+Listado de subtareas del ejercicio:
+-----------------------------------
+Subtarea 1: Instalar el software. Descargado desde la web de formación de Cisco http://www.netcad.com
+Subtarea 2: Conocer el uso del paquete y los conceptos básicos de redes necesarios, para ello he atendido dos de los cursos gratuitos de netcad: "Introduction to Packet Tracer English 0621b" y "Networking Essentials English 0621cga"
+Subtarea 3: Realizar el montaje de las siguientes topologías de red
+a.-Red con servidor web y servidor de DNS
+b.-Red con servidor DHCP
+c.-Red VLAN básica
+d.-Unir dos redes VLAN con un router
+e.-Enrutamiento estático
+
+Adjunto en el repositorio de github archivo .pkt por cada una de las 5 tareas (a-e) y captura correspondiente de pantalla de cada uno de los 5 archivos en PacketTracer.
+
+//////////////////////////////////////
+
+Adjuntos:
+tarea-39-ejercicio-3a.pkt
+PacketTracer-ejercicio-3a.JPG
+tarea-39-ejercicio-3b.pkt
+PacketTracer-ejercicio-3b.JPG
+tarea-39-ejercicio-3c.pkt
+PacketTracer-ejercicio-3c.JPG
+tarea-39-ejercicio-3d.pkt
+PacketTracer-ejercicio-3d.JPG
+tarea-39-ejercicio-3e.pkt
+PacketTracer-ejercicio-3e.JPG
+Readme_tarea_39.txt
+Diccionario_t_39.txt
+---------------------
+Incidencias: 
+Ninguna
+
+///////////////////////
+Refs.: 
