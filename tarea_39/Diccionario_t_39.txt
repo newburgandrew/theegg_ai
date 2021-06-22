@@ -1,0 +1,12 @@
+Tarea: 39
+Id: 83
+Término: Redes informáticas
+Descripción: Es de lo que está compuesta Internet
+Photo:
+///////////// 
+Tarea: 39
+Id: 84
+Término: Internet
+Descripción:  Es el conjunto global de las redes informáticas del mundo
+Photo:
+/////////////
