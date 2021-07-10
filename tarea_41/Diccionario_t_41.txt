@@ -1,0 +1,24 @@
+Tarea: 41
+Id: 85
+Término: Expresiones regulares
+Descripción: Las expresiones regulares (a menudo llamadas RegExp o RegEx) son un sistema de caracteres que conforman una notación específica que incluyen los lenguajes de programacion para detectar patrones y cadenas de texto y así poder buscar, capturar, tasformar o reemplazar textos. Estos patrones permiten realizar una búsqueda de texto de una forma relativamente sencilla y abstracta, de forma que abarca una gran cantidad de posibilidades que de otra forma sería imposible o muy costosa.
+Photo:
+///////////// 
+Tarea: 41
+Id: 86
+Término: Procesamiento del lenguaje natural
+Descripción: Natural Lenguage Processing (NLP) es el procesamiento del lenguaje natural, hablado o excrito, mediante técnicas de AI.
+Photo:
+/////////////
+Tarea: 41
+Id: 87
+Término: Scraping
+Descripción:  Es la accion de extraer de forma automatizada, mediante programas específicos a tal uso, el contendido y datos de una o varias páginas web para su posterior reutilización.
+Photo:
+/////////////
+Tarea: 41
+Id: 88
+Término: Crawling
+Descripción: Es la acción de inspecionar páginas web y establecer un listado de los enlaces contenidos y así poder establecer una red de direcciones con diferentes propósitos: crear copias, indexar las páginas para realizar posteriormente busquedas rápìdas...
+Photo:
+/////////////
