@@ -1,0 +1,18 @@
+Tarea: 45
+Id: 89
+Término: Búsqueda secuencial
+Descripción: También conocida como búsqueda lineal, es un algoritmo de búsqueda en arrays o listas de elementos. Se caracteriza por ser un tipo de búsqueda sencilla especialmente en útil en listas relativamente cortas y cuya principal ventaja es que no requiere que los elementos de la lista se hallen ordenados. Su desventaja mayor se halla en que es inoperativa en listas extensas.
+Photo:
+///////////// 
+Tarea: 45
+Id: 90
+Término: Búsqueda binaria
+Descripción: Es el método de búsqueda de elementos contenidos en arrays o listas que usa un algoritmo de búsqueda logarítmica. Su principal virtud es que es muy eficiente incluso en listas enormes; su más destacable deventaja es que requiere que sus elementos estén ordenados.
+Photo:
+/////////////
+Tarea: 45
+Id: 91
+Término: Notación Big-O
+Descripción: Big-O es una expresión formalizada en lenguaje matemático que sirve para predecir la evolución, y por ello el rendimento (efectividad, rapidez y requerimiento de recursos), de un algoritmo en función del mayor o menor volumen de su input de datos. 
+Photo:
+/////////////
