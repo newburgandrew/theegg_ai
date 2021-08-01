@@ -1,0 +1,18 @@
+Tarea: 44
+Id: 92
+Término: Notación-asintótica
+Descripción: Es una formalizacion matematica que vale para evaluar el coste de cálculo de los algoritmos en situaciones límite, por ejemplo cuando los valores de entrada (n) tienden a infinito.
+Photo:
+///////////// 
+Tarea: 44
+Id: 93
+Término: Algoritmos-de-ordenación
+Descripción: Son algortimos especificos para ordenaminto de listas de elementos, los más habituales son los de método de burbujas, el método de selección, el de inserción... Algunos son funcionales hasta un número limitado de elementos pero excesivamente lentos para listados con mucho elementos.
+Photo:
+/////////////
+Tarea: 44
+Id: 94
+Término: Notación Big-O
+Descripción: Big-O es una expresión formalizada en lenguaje matemático que sirve para predecir la evolución, y por ello el rendimento (efectividad, rapidez y requerimiento de recursos), de un algoritmo en función del mayor o menor volumen de su input de datos. 
+Photo:
+/////////////
