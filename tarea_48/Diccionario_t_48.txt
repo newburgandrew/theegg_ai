@@ -1,18 +1,24 @@
-Tarea: 44
-Id: 92
-Término: Notación-asintótica
-Descripción: Es una formalizacion matematica que vale para evaluar el coste de cálculo de los algoritmos en situaciones límite, por ejemplo cuando los valores de entrada (n) tienden a infinito.
+Tarea: 48
+Id: 95
+Término: Algoritmos de compresión
+Descripción: Algoritmos que, en base a patrones de regularidad, redundancia de datos o a que hay datos que son irrelevantes, es capaz de comprimir la información de un determinado archivo, bien sea de texto, imagen o sonido digitales.
 Photo:
 ///////////// 
-Tarea: 44
-Id: 93
-Término: Algoritmos-de-ordenación
-Descripción: Son algortimos especificos para ordenaminto de listas de elementos, los más habituales son los de método de burbujas, el método de selección, el de inserción... Algunos son funcionales hasta un número limitado de elementos pero excesivamente lentos para listados con mucho elementos.
+Tarea: 48
+Id: 96
+Término: ZIP
+Descripción: Formato de compremsion de archivos muy extendido y que se ha convertido en el más usado durante años. Actualmente está siendo desplazado por otros formatos.
 Photo:
 /////////////
-Tarea: 44
-Id: 94
-Término: Notación Big-O
-Descripción: Big-O es una expresión formalizada en lenguaje matemático que sirve para predecir la evolución, y por ello el rendimento (efectividad, rapidez y requerimiento de recursos), de un algoritmo en función del mayor o menor volumen de su input de datos. 
+Tarea: 48
+Id: 97
+Término: RAR
+Descripción: Formato de compresión también muy usado y que se destaca por su mayor capacidad de compresión frente a otros formatos (como ZIP)
+Photo:
+/////////////
+Tarea: 48
+Id: 98
+Término: descompresión
+Descripción: Proceso inverso al de compresión, mediante el cual, un algoritmo inverso al de la copresión, se logra restaurar la información a su estado original.
 Photo:
 /////////////
