@@ -1,0 +1,9 @@
+runfile('C:/Users/tutoretza3/the_egg_2021/tareas/tarea_48/LZ77-Compresor-descompresor-3.py', wdir='C:/Users/tutoretza3/the_egg_2021/tareas/tarea_48')
+COMIENZO //////////////////////////////////////
+La cadena original sin comprimir ocupa: 79 bytes
+COMPRESION //////////////////////////////////////
+[(0, 0, 'a'), (0, 0, 'b'), (0, 0, 'r'), (3, 1, 'c'), (5, 1, 'd'), (7, 4, 'y'), (5, 4, 'c'), (10, 1, 'd'), (2, 2, 'd'), (4, 1, 's'), (2, 2, 'd'), (4, 1, 's'), (0, 0, 'o')]
+La cadena comprimida ocupa: 184 bytes
+DESCOMPRESION //////////////////////////////////////
+La cadena ya descomprimida ocupa: 79 bytes
+abracadabrayabracadadddsdsdsso

@@ -1,0 +1,9 @@
+runfile('C:/Users/tutoretza3/the_egg_2021/tareas/tarea_48/LZ77-Compresor-descompresor-3.py', wdir='C:/Users/tutoretza3/the_egg_2021/tareas/tarea_48')
+COMIENZO //////////////////////////////////////
+La cadena original sin comprimir ocupa: 127 bytes
+COMPRESION //////////////////////////////////////
+[(0, 0, 't'), (0, 0, 'r'), (0, 0, 'e'), (0, 0, 's'), (0, 0, ' '), (5, 2, 'i'), (5, 1, 't'), (8, 4, 'i'), (0, 0, 'g'), (10, 1, 'e'), (7, 2, 'c'), (0, 0, 'o'), (0, 0, 'm'), (0, 0, 'í'), (0, 0, 'a'), (0, 0, 'n'), (7, 1, 't'), (0, 0, 'r'), (0, 0, 'i'), (0, 0, 'g'), (10, 1, ' '), (0, 0, 'e'), (9, 2, 'u'), (3, 2, 't'), (0, 0, 'r'), (0, 0, 'i'), (0, 0, 'g'), (0, 0, 'a'), (0, 0, 'l'), (10, 1, 'd'), (0, 0, 'e'), (10, 5, 'o')]
+La cadena comprimida ocupa: 336 bytes
+DESCOMPRSION //////////////////////////////////////
+La cadena ya descomprimida ocupa: 127 bytes
+tres tristes tigres comían trigo en un trigal de trigo
