@@ -1,0 +1,180 @@
+TAREA 49
+
+CLASES, CONSTRUCTOR Y MÉTODOS:
+
+PERSONA
+
+Clase ____________________________________________________________
+
+Object subclass: #Persona
+	instanceVariableNames: 'nombre DNI edad'
+	classVariableNames: ''
+	package: 'tarea49'
+__________________________________________________________________
+
+Constructor  _____________________________________________________
+
+inicializarPersona
+  "Este es el constructor o inicializador. Lo inicilizamos con un DNI dummy pero sin nombre ni edad, lo cual lo dejaremos para un metodo setter"
+  	nombre := ''.
+  	DNI := '00000000X'.
+	edad := 0.
+__________________________________________________________________
+
+
+Métodos (setter) _________________________________________________
+
+creaUnaPersona: unNombre and: unDNI and: unaEdad
+	unaEdad > 17 ifFalse: [ edad := 'DENEGADA-MENOR DE EDAD'].
+	unaEdad > 17 ifTrue: [ edad := unaEdad.].
+	nombre := unNombre.
+	DNI := unDNI.
+__________________________________________________________________
+
+Métodos (getter o accessing) _____________________________________
+
+mostrarNombre
+	"devuelve una cadena com los datos de la cuenta"	
+	^nombre
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _
+
+mostrarDNI
+	"devuelve el DNI"	
+	^DNI
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _
+
+mostrarEdad 
+	"devuelve la edad"	
+	^edad asString 
+__________________________________________________________________
+
+
+CUENTA
+
+Clase ____________________________________________________________
+
+Object subclass: #Cuenta
+	instanceVariableNames: 'titular cantidad'
+	classVariableNames: ''
+	package: 'tarea49'
+__________________________________________________________________
+
+Constructor  _____________________________________________________
+
+initialize
+  "Este es el constructor o inicializador. Lo inicilizamos con una cantidad y un titular de cuenta aunque también podríamos haberlo dejado en sin valores y asignarselos con un método set"
+  titular := ''.
+  cantidad := 0.
+__________________________________________________________________
+
+
+Métodos (setter) _________________________________________________
+
+usuarioCuenta: unNombre
+	titular := unNombre.
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
+
+ingresar: unaCantidad
+
+	unaCantidad < 0 ifTrue: [ 
+		^Transcript show: 'No se puede ingresar cantidad negativa.'].
+	unaCantidad > 0 ifTrue: [ 
+		^cantidad := cantidad + unaCantidad.].
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
+
+retirar: unaCantidad
+	unaCantidad < 1 ifTrue: [ 
+		^cantidad .].
+	unaCantidad > 0 ifTrue: [ 
+		^cantidad := cantidad - unaCantidad.]
+__________________________________________________________________
+
+Métodos (getter o accessing) _____________________________________
+
+mostrarCantidad 
+	"devuelve una cadena com los datos de la cuenta"	
+	^cantidad asStringOrText .
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _
+
+mostrarTitular
+	"devuelve una cadena co los datos de la cuenta"	
+	^titular.
+
+__________________________________________________________________
+
+
+PUESTA EN PRÁCTICA EN PLAYGROUND:
+
+Prueba 1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+Transcript clear.
+Transcript show: 'Tarea 49 - OOP ejemplo'.
+Transcript cr.
+unacuenta := Cuenta new. "Este es el que instancia una un objeto Cuenta desde la clase"
+
+Transcript show: 'Esta cuenta es de: ', unacuenta mostrarTitular .
+Transcript cr.
+Transcript show: 'Esta cuenta tiene: ', unacuenta mostrarCantidad , ' €'.
+Transcript cr.
+unacuenta ingresar: 2200.
+unacuenta usuarioCuenta: 'Alberto Gonzalez'.
+Transcript show: ' La cuenta tiene ahora un balance de: ', unacuenta mostrarCantidad, ' €' .
+Transcript cr.
+unacuenta retirar:  100.
+Transcript cr.
+Transcript show: 'La cuenta de ', unacuenta mostrarTitular , ' tiene ahora un balance de: ', unacuenta mostrarCantidad .
+Transcript cr.
+unCliente := Persona new.
+unCliente creaUnaPersona: 'Enrique Lopez' and: '35343563M' and: 71.
+Transcript cr.
+Transcript show: 'Datos del cliente: ',  unCliente mostrarNombre , ' - ', unCliente mostrarDNI, ' - ', unCliente  mostrarEdad .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+Prueba 2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Transcript clear.
+Transcript show: 'Tarea 49 - OOP ejemplo'.
+Transcript cr.
+unacuenta := Cuenta new. "Este es el que instancia una un objeto Cuenta desde la clase"
+
+Transcript show: 'Esta cuenta es de: ', unacuenta mostrarTitular .
+Transcript cr.
+Transcript show: 'Esta cuenta tiene: ', unacuenta mostrarCantidad , ' €'.
+Transcript cr.
+unacuenta ingresar: -1100.
+unacuenta usuarioCuenta: 'Alberto Gonzalez'.
+Transcript show: ' La cuenta tiene ahora un balance de: ', unacuenta mostrarCantidad, ' €' .
+Transcript cr.
+unacuenta ingresar: 100.
+Transcript cr.
+Transcript show: 'La cuenta de ', unacuenta mostrarTitular , ' tiene ahora un balance de: ', unacuenta mostrarCantidad .
+Transcript cr.
+unCliente := Persona new.
+unCliente creaUnaPersona: 'Luis' and: '3787676M' and: 11.
+Transcript cr.
+Transcript show: 'Datos del cliente: ',  unCliente mostrarNombre , ' - ', unCliente mostrarDNI, ' - ', unCliente  mostrarEdad .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+SALIDA EN TRANSCRIPT:
+
+Prueba 1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+Tarea 49 - OOP ejemplo
+Esta cuenta es de: 
+Esta cuenta tiene: 0 €
+La cuenta tiene ahora un balance de: 2200 €
+La cuenta de Alberto Gonzalez tiene ahora un balance de: 2100
+Datos del cliente: Enrique Lopez - 35343563M - 71
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Prueba 2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+Tarea 49 - OOP ejemplo
+Esta cuenta es de: 
+Esta cuenta tiene: 0 €
+No se puede ingresar cantidad negativa. La cuenta tiene ahora un balance de: 0 €
+La cuenta de Alberto Gonzalez tiene ahora un balance de: 100
+Datos del cliente: Luis - 3787676M - DENEGADA-MENOR DE EDAD
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+

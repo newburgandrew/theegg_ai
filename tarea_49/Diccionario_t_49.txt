@@ -1,0 +1,47 @@
+Tarea: 48
+Id: 99
+Término: Clase
+Descripción: En un lenguaje de programación puramente orientado a objetos (OOP) una clase es un tipo de dato definido por el usuario, en sí no sería sino una categoría abstracta usado para crear objetos concretos y utilizables (instancias). Por ejemplo, una clase definiría un tipo de atributo que sería común a varios objetos como el atributo color, pero no específicamente a ningún color en concreto, que sólo correspondería poseer a una instancia de dicha clase. Existen un tipo de clase, abstractas en grado sumo que son denominadas parent classes o super clases y clases más específicas que son denominadas child classes.
+///////////// 
+Tarea: 48
+Id: 100
+Término: Objeto 
+Descripción: En OOP, objeto es el componente central y prácticamente único del lenguaje; todo en el lenguaje, incluso un número o un operador, y se comunican entre sí exclusivamente mediante el envío de mensajes.
+Photo:
+/////////////
+Tarea: 48
+Id: 101
+Término: Método 
+Descripción: Los métodos son las definiciones de las operaciones que se pueden llevar a cabo en los objetos. Un método especifica la reacción de un objeto cuando recibe un mensaje de parte de otros objetos. Los métodos son lo que determinan el interface de un objeto.
+Photo:
+/////////////
+Tarea: 49
+Id: 102
+Término: Atributo
+Descripción: Son las características distintivas que diferencian a las clases entre sí y, por extensión, a los objetos que de ellas son creados. El estado de ese objeto viene dado por los datos que mantienen los atributos del objeto en cuestión.
+Photo:
+/////////////
+Tarea: 49
+Id: 103
+Término: Instancia 
+Descripción: En sí mismo nos referiríamos a "instanciar", la acción por la que se individualiza y se materializa una clase en un objecto. Por ello una instancia como tal no se puede dar ya que de la acción de instanciar una clase se produce directamente un objeto.
+Photo:
+/////////////
+Tarea: 49
+Id: 104
+Término: Constructor 
+Descripción: Es la estructura de atributos y métodos que conforman un objeto al ser creado desde la invocación de una clase.
+Photo:
+/////////////
+Tarea: 49
+Id: 105
+Término: Encapsulamiento 
+Descripción: Es uno de los cuatro principios fundamentales de la programación OOP, su función es mantener la información de atributos y métodos del objeto a resguardo dentro de especificación de la clase, permitiendo sólo acceder a parte de ellos desde fuera del objeto mediante los pertinentes accessing y setting methods.
+Photo:
+/////////////
+Tarea: 49
+Id: 106
+Término: Herencia
+Descripción: Es otros de los cuatro principios, en este caso su función es simplificar notablemente la creación de clases mediante el aprovechamiento de atributos y métodos compartidos que tienen los objetos, similar al mundo real; así se definen características generales compartidas por diferentes objetos en la clase parent, que son heredados por clases hijo sin tener ser estipuladas de nuevo.
+Photo:
+/////////////
