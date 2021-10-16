@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head title="cripto"></head>
+</head>
+<body>
+    <script type="text/javascript">
+/////////////////////////////////////////  
+/////////////METODOS
+
+/////////////////////////////////////////  
+// METODO 1: BARAJAR EL MAZO
+function shuffleArray(array) {
+   for (var i = array.length - 1; i > 0; i--) {
+       // Generate random number
+       var j = Math.floor(Math.random() * (i + 1));           
+       var temp = array[i];
+       array[i] = array[j];
+       array[j] = temp;
+   }    
+   return array;
+}
+/////////////////////////////////////////   
+// METODO 2: QUITAR ESPACION EN BLANCO
+
+function removeWhiteSpaceCharacter(str) {
+            str = str.split(" ").join("");
+            return str;
+        }
+
+/////////////////////////////////////////
+/// Metodo 3: DIVIDE EL TEXTO EN CUATRO PARTES. La funcion esta al final no la he usado en esta última version de encriptador
+
+/////////////////////////////////////////
+/// METODO 4: MOVER LOS COMODINES
+
+function encuentraIndiceEnComodines(int, array) {
+
+var nuevoIndice = 0;
+var posMover = 0;
+var indice = 0;
+
+var posMover = 0;
+var indice = 0;
+
+if (int == 53) {
+    posMover = 1;
+        }
+else {
+    posMover = 2;
+    }
+indice = array.indexOf(int);
+
+if ((indice == (array.length)-1)) { 
+    nuevoIndice = posMover;
+}
+else if ((indice == (array.length)-2) && (int == 54)) { 
+    nuevoIndice = 1; 
+}
+else {
+    nuevoIndice = indice + posMover;
+}
+
+[array[indice], array[nuevoIndice]] = [array[nuevoIndice], array[indice]];
+return array;
+}
+
+///////////////////////////////////
+/// METODO 5: El triple corte
+
+function tripleCorte(array){
+
+let labarajaCortada1 = new Array();
+let labarajaCortada2 = new Array();
+indice = array.indexOf(joker);
+posJokerA = array.indexOf(53);
+posJokerB = array.indexOf(54);
+
+if (posJokerA < posJokerB) { 
+    primerCorte = posJokerA
+    segundoCorte = posJokerB
+}
+else {
+    primerCorte = posJokerB;
+    segundoCorte = posJokerA; 
+}
+
+primeraParte = array.slice(0, primerCorte);
+segundaParte = array.slice(primerCorte, segundoCorte+1);
+terceraParte = array.slice(segundoCorte+1, array.length);
+
+labarajaCortada1 = terceraParte.concat(segundaParte);
+labarajaCortada2 = labarajaCortada1.concat(primeraParte);
+return labarajaCortada2;
+}
+
+/////////////////////////////////////////  
+/// METODO 6: CORTE DE CONTEO
+
+function cortedeconteo(array){
+let labarajaCortada3 = new Array();
+let primeraPartecorte = new Array();
+let segundaPartecorte = new Array();
+var labarajaCortada2 = tripleCorte(array, joker);
+var ultimovalor = parseInt(labarajaCortada2[(labarajaCortada2.length)-1]);
+
+if (ultimovalor != 53 & ultimovalor != 54) {
+    primeraPartecorte = labarajaCortada2.slice(0, ultimovalor);
+    segundaPartecorte = labarajaCortada2.slice(ultimovalor, (labarajaCortada2.length)-1);
+    labarajaCortada3 = segundaPartecorte.concat(primeraPartecorte);
+    labarajaCortada3 = labarajaCortada3.concat(ultimovalor);
+}
+else {
+    labarajaCortada3 = labarajaCortada2;
+}
+
+return labarajaCortada3;
+}
+
+
+/////////////////////////////////////////  
+/// METODO 7: GENERAR EL VALOR PARA GENERAR EL KEYSTREAM COMPLETO
+function generaValorKeyS(array){
+var valorPrimeraCarta = array[0];
+var elvalor = 0;
+if (valorPrimeraCarta==53 | valorPrimeraCarta==54) {
+    elvalor = array[(array.length)-1];
+}
+else {
+    elvalor = array[valorPrimeraCarta];
+}
+return elvalor;
+}
+
+/////////////////////////////////////////  
+/// METODO 8: KEYSTREAM COMPLETO
+
+function generarKeystream(str, array){
+    keystreamCompleto = new Array(0);
+    while (keystreamCompleto.length < str.length){
+        array = encuentraIndiceEnComodines(joker, array);
+        array = tripleCorte(array);
+        array = cortedeconteo(array);
+        valor = generaValorKeyS(array);
+        if (valor != ''){
+            keystreamCompleto.push(valor);
+        }
+    } 
+    return keystreamCompleto;
+}
+
+/////////////////////////////////////////  
+//// METODO 9: Texto a numeros
+
+function textoAnumeros(texto){
+let textoEnNumeros = new Array();
+for (const value of texto) {
+    posicionletra = alphabet.indexOf(value);
+    textoEnNumeros.push(posicionletra+1);
+}
+    return textoEnNumeros;
+}
+
+/////////////////////////////////////////  
+//// METODO 10: Texto a numeros para la función de restar
+
+function textoAnumerosRestar(texto){
+let textoEnNumeros = new Array();
+for (const value of texto) {
+    posicionletra = alphabet.indexOf(value);
+    textoEnNumeros.push(posicionletra);
+}
+    return textoEnNumeros;
+}
+
+/////////////////////////////////////////  
+//// METODO 11: numeros a texto
+
+function numerosATexto(array){
+var numerosEnTexto = "";
+for (const value of array) {
+    letraposicional = alphabet[value];
+    numerosEnTexto = numerosEnTexto + letraposicional;
+}
+    return numerosEnTexto;
+}
+
+/////////////// 
+// METODO 12 SUMAR (PARA CIFRAR)
+function sumarParaEncriptar(arrayTextoEntNumerico, arrayTextoKeyStream){
+let textoCifradoNumerico = new Array();
+var valorFinal = 0;
+var valorSumado = 0;
+for (i = 0; i < (arrayTextoEntNumerico.length); i++) {
+    valorSumado = arrayTextoEntNumerico[i] + arrayTextoKeyStream[i] ;
+    if (valorSumado > 52){
+        valorFinal = valorSumado-52;
+    }
+    else if (valorSumado > 26){
+        valorFinal = valorSumado-26;
+    }
+    else {
+        valorFinal = (valorSumado);
+    }
+    textoCifradoNumerico.push(valorFinal);
+}
+return textoCifradoNumerico;
+}
+
+
+/////////////////////////////////////////  
+//// METODO 13: RESTRA PARA DESCIFRAR
+
+function restarParaEncriptar(arrayTextoSalNumerico, arrayTextoSalKeyStream){
+let texto_Sal_CifradoNumerico = new Array();
+var valorFinal = 0;
+var valorRestado = 0;
+for (i = 0; i < (arrayTextoSalNumerico.length); i++) {
+    valorRestado = arrayTextoSalNumerico[i] - arrayTextoSalKeyStream[i];
+    if (valorRestado < -26){
+        valorFinal = valorRestado+52;
+    }
+    else if (valorRestado < 0){
+        valorFinal = valorRestado+26;
+    }
+    else {
+        valorFinal = valorRestado;
+    }
+    texto_Sal_CifradoNumerico.push(valorFinal);
+}
+return texto_Sal_CifradoNumerico;
+}
+
+
+/////// FIN DE LOS METODOS
+///////////////////////////////////////// 
+///////////////////////////////////////// 
+
+// SE INVOCAN LOS METODOS Y SE SACAN LOS VALORES RESULTANTES POR PANTALLA
+        
+        // Se solicita la introducción de una palabra para cifrar:
+        var eltexto = window.prompt("Introduce un texto para encriptar, recuerda que solo valen mayusculas: ");
+        document.write("<br />");
+        document.write("-----------------------------", "<br />");  
+      
+        //metemos un joker
+        var joker = window.prompt("Introduce un joker, el 53 o el 54... ");
+        var joker = parseInt(joker, 10);
+              
+        var eltextosinespacios = removeWhiteSpaceCharacter(eltexto);
+        document.write("El texto sin espacios: ", "<br />");   
+        document.write(eltextosinespacios, "<br />");
+        document.write("-----------------------------", "<br />");  
+
+        
+// creamos una baraja original
+let barajaoriginal = new Array();
+for (let i = 1; i < 55; i++) {
+    barajaoriginal.push(i);
+}
+
+document.write("<br />");
+document.write("-----------------------------", "<br />"); 
+// creamos un alfabeto
+let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZZ';
+
+document.write("Barajaoriginal: ", "<br />", barajaoriginal);
+document.write("<br />");
+barajaoriginal = shuffleArray(barajaoriginal);
+document.write("Barajaoriginal barajada: ", "<br />", barajaoriginal);
+document.write("<br />");
+
+//Hacemos una copia de la baraja original antes de pasar la función múltiple ...
+barajaoriginal_2 = barajaoriginal; 
+
+let textoEntNumerico = textoAnumeros(eltextosinespacios);
+let textoKeystream= generarKeystream(eltextosinespacios, barajaoriginal);
+let numerosCifrados = sumarParaEncriptar(textoEntNumerico, textoKeystream);
+
+///// La funcion de cifrar el texto de entrada lo he puesto aqui, en lugar de ponerlo en el sitio de las funciones arriba.
+var textoEntCifrado = "";
+for (const value of numerosCifrados) {
+    letraposicional = alphabet[value-1];
+    textoEntCifrado = textoEntCifrado + letraposicional;
+}
+////////////////////////////////////////
+document.write("===============================", "<br />");
+document.write("Texto: ", eltextosinespacios, "<br />" );
+document.write("Texto de entrada num&eacute;rico: ", textoEntNumerico, "<br />" );
+document.write("Texto Key Stream: ", textoKeystream, "<br />");
+document.write("N&uacute;meros cifrados: ", numerosCifrados, "<br />");
+document.write("Texto de entrada cifrado: ", textoEntCifrado, "<br />");
+document.write("===============================", "<br />");
+document.write("CIFRADO RESUELTO!", "<br />","<br />","<br />");
+
+let textoSalNumerico = textoAnumerosRestar(textoEntCifrado);
+let textoSalKeystream = generarKeystream(textoSalNumerico, barajaoriginal_2);
+
+///// A continuación vienen las sentencias que hacen el restado para descifrar...lo he puesto aqui, en lugar de ponerlo en el sitio de las funciones arriba.
+let numerosSalCifrados = new Array();
+var valorFinal = 0;
+var valorRestado = 0;
+for (i = 0; i < (textoSalNumerico.length); i++) {
+    valorRestado = textoSalNumerico[i] - textoSalKeystream[i];
+    if (valorRestado < -26){
+        valorFinal = valorRestado+52;
+    }
+    else if (valorRestado < 0){
+        valorFinal = valorRestado+26;
+    }
+    else {
+        valorFinal = valorRestado;
+    }
+    numerosSalCifrados.push(valorFinal);
+}
+
+/////ABRIMOS UN APARTE PAR AEL CONFLICTIVO
+var textoSalCifrado = "";
+for (const value of numerosSalCifrados) {
+    letraSalposicional = alphabet[value];
+    textoSalCifrado = textoSalCifrado + letraSalposicional;
+}
+////////////////////////////////////////
+////////////////////
+document.write("===============================", "<br />");
+document.write("Texto: ", textoEntCifrado, "<br />");
+document.write("Texto de salida num&eacute;rico: ", textoSalNumerico, "<br />" );
+document.write("Texto de salida Key Stream: ", textoSalKeystream, "<br />");
+document.write("N&uacute;meros cifrados: ", numerosSalCifrados, "<br />");
+document.write("Texto de salida cifrado: ", textoSalCifrado, "<br />");
+document.write("===============================", "<br />");
+document.write("DESCIFRADO RESUELTO!");
+              
+////////////////////
+
+    </script>
+        
+</body>
+</html>
