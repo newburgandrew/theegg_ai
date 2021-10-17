@@ -1,0 +1,16 @@
+//////////////////////////////////////////////////
+Descripción de sub-tareas para la tarea número: 23	
+==================================================
+Cifrado con el solitario.
+
+Listado de sub-tareas del ejercicio:
+------------------------------------
+He seguido las instrucciones de la tarea sin embargo no me ha sido fácil realizarla. Para comprender la resolución me he apoyado en la solución de Lujan. Gracias Lujan por hacerlo tan accesible a inexpertos como yo!. Yo he preferido hacerlo en JavaScript, más que nada para ver si era capaz de hacerlo yo mismo.
+Cómo testar el código: Tan solo abrir el archivo html con un navegador y responder al prompt con una palabra cualquiera escrita en mayúsculas y un número de Joker (53 o 54).
+NOTA: Creo que hay algún parametro en alguna función que impide resolver el desencriptado de forma correcta al 100%; de vez en cuando saltea alguna letra.
+//////////////////////////////////////////////////
+Adjuntos: 
+cripto.html
+Diccionario_t_23.txt
+- - - - - - - - - - - - - - - - - - - - - - - - - 
+Incidencias: No hay
